@@ -1,0 +1,125 @@
+.comments-container {        
+    border: 1px solid #b5bdc0;
+    border-radius: 3px;
+    margin-top: 5px;         
+}
+
+.editor {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    flex-direction: column;  
+    line-height: 0;
+}
+
+.input-area {
+    position: relative;
+    margin: 0px 5px 0px 0px;
+}
+
+.text-area {
+    outline: none;
+    width: 100%;
+    min-height: 50px;
+    max-height: 300px;
+    padding: 0;
+    border: none;
+    resize: none;    
+    font-size: 14px;
+    font-weight: 400;  
+    font-family: inherit;
+    line-height: 1.5;
+    padding-left: 5px;   
+    overflow: auto;    
+}
+
+.text-area:hover {       
+    border-color: #80bdff;    
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+.action-container {    
+    border-top: 1px solid #cfd8dc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    overflow: hidden;    
+    border-radius: 0 0 2px 2px;
+    min-height: 30px;
+    max-height: 100px;    
+    background: white;  
+}
+
+.name-area {   
+    outline: none;
+    border: none;
+    margin: 2px;
+    padding-left: 5px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;    
+    line-height: 1.5;    
+    font-size: 14px;
+    font-weight: 400; 
+    font-family: inherit;
+}
+
+.name-area:hover {        
+    border-color: #80bdff;    
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+.action-area {       
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    overflow: hidden; 
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;   
+}
+
+.cancel-btn {  
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;       
+    color: black;    
+    min-width: 60px;    
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    color: white;
+    background-color: #6c757d;   
+  }
+
+.post-btn {
+    border-left: 1px solid #b5bdc0;
+    background:#6c757d;  
+    color:white;   
+    min-width: 60px; 
+    border: none; 
+    outline: none;
+    cursor: pointer;    
+}
+
+.post-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+.post-btn:hover:enabled{
+    color: black;
+    background-color: #a6adb3;  
+  
+}
+
+.post-btn:active:enabled{
+    color: black;
+    background-color: #a6adb3;
+}
+
