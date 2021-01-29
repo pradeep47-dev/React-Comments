@@ -32,7 +32,7 @@ let PostForm = ({ dispatch, postId, replyId, responseId, level, showCancel, onCa
         }} onReset={e => onCancel()}>
             <div className="editor">
                 <div className="input-area">
-                    <textarea className="text-area" placeholder="Enter Comment..." ref={node => {
+                    <textarea className="text-area" placeholder={level <= 0 ? "Enter Text..." : "Enter Reply..."} ref={node => {
                         comment = node
                     }} onChange={handleChange} />
                 </div>
