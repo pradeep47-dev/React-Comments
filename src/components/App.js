@@ -16,9 +16,7 @@ const App = () => (
               <PostForm showCancel={false} level={0}/>
           </div>      
           <div className="PostsList-container">
-              <div className="Posts-Area">
-                  <PostsList className="postslist"/>
-              </div>
+              <PostsList className="postslist"/>             
           </div>          
       </div>
   </div>
