@@ -3,6 +3,13 @@
     flex-direction: column;
 }
 
+.MainPost {   
+    border: 1px solid #b5bdc0;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 5px;
+}
+
 .post-header {
     display: flex;
     flex-direction: row;
