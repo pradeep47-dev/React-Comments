@@ -8,7 +8,7 @@ import Post from './Post'
 const Posts = ({ posts, actions}) => (
   <div>
     {posts.map(post =>
-     <div className="MainPost">
+     <div className="MainPost" key={post.postId}>
       <Post key={post.postId}
         {...post}       
         actions={actions}       
